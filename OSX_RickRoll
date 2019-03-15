@@ -1,0 +1,14 @@
+//Play Rickroll youtube video at MAX volume on OSX
+
+
+layout("us")
+press("GUI SPACE")
+delay(500)
+type("terminal")
+press("ENTER")
+delay(500)
+type("osascript -e 'set volume 7'")
+press("ENTER")
+delay(100)
+type("open https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+press("ENTER")
